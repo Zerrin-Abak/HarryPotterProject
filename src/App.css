@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.main-page-main-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-page-div{
+  width: 150px;
+  padding: 50px 0 ;
+  margin: 0 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.main-page-p{
+  margin: 20px 0;
+  color: darkviolet;
+}
+
+.icon-big{
+  font-size: 35px;
+  color: rgb(77, 108, 201);
+}
+
+.icon-small{
+  color: grey;
+  margin-left: 5px;
+}
+
+.link{
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+}
+
+.character-main-div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  height: 500px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+}
+
+.character-cards-div{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.list{
+  padding: 0 20px;
+}
+
+.img-div{
+ margin: 5px auto;
+}
+
+
+img{
+  width: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.info-p{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 8px;
+  color: darkorchid;
+}
+
+.children-p{
+  font-size: 15px;
+  font-weight: bold;
+  margin: 6px 0;
+  color: rgb(121, 120, 120);
+}
+
+ul.list li{
+  font-size: 12px;
+  text-align: left;
+  color: gray;
+}
+
+.characters-h1{
+  color: darkorange;
+}
+
+.fullname-h3{
+  color: darkorchid;
+  text-align: left;
+}
+
+.book-main-div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  height: 450px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 300px;
+  padding: 10px;
+}
+
+.book-info-desc{
+  font-size: 11px;
+  color: rgb(68, 68, 68);
+  text-align: left;
+}
+
+.title-h3{
+  font-size: 14px;
+  color: darkorchid;
+  text-align: left;
+}
