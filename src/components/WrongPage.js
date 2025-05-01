@@ -2,7 +2,7 @@ import React from 'react'
 
 function WrongPage() {
   return (
-    <div>Sayfa Bulunamadı!</div>
+    <div>404 Not Found!</div>
   )
 }
 
