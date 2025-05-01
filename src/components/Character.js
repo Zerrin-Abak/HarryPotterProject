@@ -18,7 +18,7 @@ function Character({ element }) {
                 return <li>{value}</li>;
               })
             ) : (
-              <li>Çocuğu yok.</li>
+              <li>Has no children.</li>
             )}
           </ul>
       </div>
